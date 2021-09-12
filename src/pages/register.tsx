@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-import '../../assets/scss/pages/register.scss';
+import '../assets/scss/pages/register.scss';
 
 export default function Register() {
     return (
@@ -18,14 +18,15 @@ export default function Register() {
                     </div>
 
 
-                    <button className="button">Cadastrar</button>
+                    <Link to="/painel" className="button">
+                        <button>Cadastrar</button>
+                    </Link>
                 </div>
 
             </div>
             <div className="apresentation">
                 <h1>Neumorphism</h1>
                 <h2>Clean Todo</h2>
-
             </div>
 
         </div>

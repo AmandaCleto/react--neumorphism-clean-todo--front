@@ -4,8 +4,9 @@ import '../assets/scss/global.scss';
 import { BrowserRouter as Router, Route, Link, Redirect } from "react-router-dom";
 
 import PersonalProfileContainer from './personalProfile';
-import Login from './components/login';
-import Register from './components/register';
+import Painel from './painel';
+import Login from './login';
+import Register from './register';
 
 function App() {
   const loggedIn = true;
@@ -17,6 +18,7 @@ function App() {
         </Route>
         <Route path="/register" component={Register} />
         <Route path="/login" component={Login} />
+        <Route path="/painel" component={Painel} />
       </div>
     </Router>
   );

@@ -23,6 +23,5 @@
   "include": [
     "src",
     "src/pages",
-    "src/pages/components"
   ]
 }

@@ -97,10 +97,11 @@
 				}
 			}
 
-			button.button {
+			.button {
 				all: unset;
 				height: 50px;
 				width: 100%;
+				line-height: 25px;
 
 				text-align: center;
 				background-color: #DC493A;
@@ -108,10 +109,18 @@
 				color: #FFF;
 				cursor: pointer;
 
+				display: flex;
+				align-items: center;
+				justify-content: center;
+
 				font: 600 20px "Raleway", sans-serif;
 
 				&:hover {
 					background-color: darken($color: #DC493A, $amount: 10);
+				}
+
+				button {
+					all: unset;
 				}
 			}
 		}

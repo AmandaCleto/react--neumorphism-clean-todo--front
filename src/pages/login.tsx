@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 
-import '../../assets/scss/pages/login.scss';
+import '../assets/scss/pages/login.scss';
 
 export default function Login() {
     return (
@@ -23,7 +23,9 @@ export default function Login() {
                     </div>
 
 
-                    <button className="button">Entrar</button>
+                    <Link to="/painel" className="button">
+                        <button>Entrar</button>
+                    </Link>
                 </div>
 
             </div>
